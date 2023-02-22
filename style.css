@@ -1,0 +1,23 @@
+body{
+  margin-top: 5%;
+  background-color: rgb(99, 187, 108);
+}
+
+#gameBoard{
+  padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+} 
+
+.popupLose {
+	display: block;
+	position: fixed;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 20px;
+	border: 1px solid black;
+}
